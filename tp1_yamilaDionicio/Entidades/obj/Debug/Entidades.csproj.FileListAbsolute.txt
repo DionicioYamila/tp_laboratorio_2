@@ -1,0 +1,6 @@
+C:\Users\facu3\source\repos\tp1_yamilaDionicio\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\facu3\source\repos\tp1_yamilaDionicio\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\facu3\source\repos\tp1_yamilaDionicio\Entidades\bin\Debug\Entidades.dll
+C:\Users\facu3\source\repos\tp1_yamilaDionicio\Entidades\bin\Debug\Entidades.pdb
+C:\Users\facu3\source\repos\tp1_yamilaDionicio\Entidades\obj\Debug\Entidades.dll
+C:\Users\facu3\source\repos\tp1_yamilaDionicio\Entidades\obj\Debug\Entidades.pdb
