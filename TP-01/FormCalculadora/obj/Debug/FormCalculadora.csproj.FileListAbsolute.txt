@@ -1,0 +1,13 @@
+C:\Users\Administrator\source\repos\tp_laboratorio_2\FormCalculadora\bin\Debug\FormCalculadora.exe.config
+C:\Users\Administrator\source\repos\tp_laboratorio_2\FormCalculadora\bin\Debug\FormCalculadora.exe
+C:\Users\Administrator\source\repos\tp_laboratorio_2\FormCalculadora\bin\Debug\FormCalculadora.pdb
+C:\Users\Administrator\source\repos\tp_laboratorio_2\FormCalculadora\bin\Debug\Entidades.dll
+C:\Users\Administrator\source\repos\tp_laboratorio_2\FormCalculadora\bin\Debug\Entidades.pdb
+C:\Users\Administrator\source\repos\tp_laboratorio_2\FormCalculadora\obj\Debug\FormCalculadora.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\tp_laboratorio_2\FormCalculadora\obj\Debug\FormCalculadora.Form1.resources
+C:\Users\Administrator\source\repos\tp_laboratorio_2\FormCalculadora\obj\Debug\FormCalculadora.Properties.Resources.resources
+C:\Users\Administrator\source\repos\tp_laboratorio_2\FormCalculadora\obj\Debug\FormCalculadora.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\tp_laboratorio_2\FormCalculadora\obj\Debug\FormCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\tp_laboratorio_2\FormCalculadora\obj\Debug\FormCalculadora.csproj.CopyComplete
+C:\Users\Administrator\source\repos\tp_laboratorio_2\FormCalculadora\obj\Debug\FormCalculadora.exe
+C:\Users\Administrator\source\repos\tp_laboratorio_2\FormCalculadora\obj\Debug\FormCalculadora.pdb
