@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\tp_laboratorio_2\\Entidades\\Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\el repo la pititi\\tp_laboratorio_2\\TP-01\\Entidades\\Entidades.csproj",
       "projectName": "Entidades",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\tp_laboratorio_2\\Entidades\\Entidades.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\el repo la pititi\\tp_laboratorio_2\\TP-01\\Entidades\\Entidades.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\source\\repos\\tp_laboratorio_2\\Entidades\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Desktop\\el repo la pititi\\tp_laboratorio_2\\TP-01\\Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

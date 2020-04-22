@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "78KrrBSa40AikSJ4lV4sgPdNAOSIfvO2ml2Mff1i3FWGtcWl4VmoD60z8EOxMrgvJ7XFgTXV552BlDwoW1xECA==",
+  "dgSpecHash": "u4ON/sDnXiMj+kWgbUDZ1lSy15OfhvZP9RW6h4befQE2e/Dgr9KV9NZQAsvjFfwMT4J/KFg3FmLWhgGXfcAq+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\tp_laboratorio_2\\Entidades\\Entidades.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\el repo la pititi\\tp_laboratorio_2\\TP-01\\Entidades\\Entidades.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

@@ -19,20 +19,23 @@ namespace Entidades
 
         public string BinarioDecimal(string binario)
         {
-            int num = Convert.ToInt32(binario);
-            if (num > 0) 
+            int i;
+            
+            int num = binario.Length;
+
+            for (i = 0; i < num; i++) 
             {
-                return (Convert.ToInt32(binario, 2)).ToString();
+                if (binario[i] != '0' && binario[i] != '1')
+                {
+                    return "Valor invalido";                
+                }
             }
-            else
-            {
-                return "Valor invalido";
-            }
+            return Convert.ToInt32(binario, 2).ToString();
         }
 
         public string DecimalBinario(double numero)
         {
-            int num = Math.Abs(Convert.ToInt32(numero));
+            int num = Convert.ToInt32(Math.Abs(Math.Truncate(numero)));
 
             if (num > 0)
             {
@@ -46,7 +49,8 @@ namespace Entidades
 
         public string DecimalBinario(string numero)
         {
-            return this.DecimalBinario(double.Parse(numero));
+            this.SetNumero = numero;
+            return this.DecimalBinario(this.numero);
         }
 
         public Numero()
@@ -61,21 +65,24 @@ namespace Entidades
 
         public Numero(string strNumero)
         {
-            this.numero =  double.Parse(strNumero);
+            this.SetNumero =  strNumero;
         }
 
         private double ValidarNumero(string strNumero) 
         {
-            int i;
-            //1A2
-            for(i=0; i < strNumero.Length; i++)
+            double num;
+
+            bool isDouble = Double.TryParse(strNumero, out num);
+
+            if (isDouble)
             {
-                if (strNumero[i] <  0 || strNumero[i] > 9)
-                {
-                    return 0;                 
-                }              
+                return num;
             }
-            return double.Parse(strNumero);
+
+            else
+            {
+                return 0;
+            }
         }
 
         public static double operator - (Numero n1, Numero n2)
