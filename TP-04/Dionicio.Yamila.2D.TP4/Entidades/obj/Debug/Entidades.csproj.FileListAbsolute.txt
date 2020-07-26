@@ -1,0 +1,6 @@
+C:\Users\Administrator\source\repos\Dionicio.Yamila.2D.TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\Administrator\source\repos\Dionicio.Yamila.2D.TP4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Administrator\source\repos\Dionicio.Yamila.2D.TP4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\Dionicio.Yamila.2D.TP4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Dionicio.Yamila.2D.TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\Administrator\source\repos\Dionicio.Yamila.2D.TP4\Entidades\obj\Debug\Entidades.pdb
