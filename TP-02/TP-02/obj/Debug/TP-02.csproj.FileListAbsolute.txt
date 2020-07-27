@@ -18,16 +18,9 @@ D:\Federico\VB .Net\Visual C#\utn\TPs\2018\TP-02\TP-02\bin\Debug\TP-02.exe.confi
 D:\Federico\VB .Net\Visual C#\utn\TPs\2018\TP-02\TP-02\obj\Debug\TP-02.exe
 D:\Federico\VB .Net\Visual C#\utn\TPs\2018\TP-02\TP-02\obj\Debug\TP-02.pdb
 D:\Federico\VB .Net\Visual C#\utn\TPs\2018\TP-02\TP-02\obj\Debug\TP-02.csprojResolveAssemblyReference.cache
-E:\Laboratorio II\TP-02\TP-02\bin\Debug\TP-02.exe.config
-E:\Laboratorio II\TP-02\TP-02\bin\Debug\TP-02.exe
-E:\Laboratorio II\TP-02\TP-02\bin\Debug\TP-02.pdb
-E:\Laboratorio II\TP-02\TP-02\bin\Debug\Entidades.dll
-E:\Laboratorio II\TP-02\TP-02\bin\Debug\Entidades.pdb
-E:\Laboratorio II\TP-02\TP-02\obj\Debug\TP-02.csprojAssemblyReference.cache
-E:\Laboratorio II\TP-02\TP-02\obj\Debug\TP-02.csproj.CoreCompileInputs.cache
-E:\Laboratorio II\TP-02\TP-02\obj\Debug\TP-02.csproj.CopyComplete
-E:\Laboratorio II\TP-02\TP-02\obj\Debug\TP-02.exe
-E:\Laboratorio II\TP-02\TP-02\obj\Debug\TP-02.pdb
+D:\Federico\VB .Net\Visual C#\utn\TPs\2018\TP-N2\TP-02\TP-02\obj\Debug\TP-02.csprojAssemblyReference.cache
+D:\Federico\VB .Net\Visual C#\utn\TPs\2018\TP-N2\TP-02\TP-02\obj\Debug\TP-02.csproj.CoreCompileInputs.cache
+D:\Federico\VB .Net\Visual C#\utn\TPs\2018\TP-N2\TP-02\TP-02\obj\Debug\TP-02.exe
 C:\Users\facu3\Desktop\TP-02\TP-02\bin\Debug\TP-02.exe.config
 C:\Users\facu3\Desktop\TP-02\TP-02\bin\Debug\TP-02.exe
 C:\Users\facu3\Desktop\TP-02\TP-02\bin\Debug\TP-02.pdb
@@ -38,3 +31,13 @@ C:\Users\facu3\Desktop\TP-02\TP-02\obj\Debug\TP-02.csproj.CoreCompileInputs.cach
 C:\Users\facu3\Desktop\TP-02\TP-02\obj\Debug\TP-02.csproj.CopyComplete
 C:\Users\facu3\Desktop\TP-02\TP-02\obj\Debug\TP-02.exe
 C:\Users\facu3\Desktop\TP-02\TP-02\obj\Debug\TP-02.pdb
+C:\Users\Administrator\Desktop\asdfgh\TP-02\TP-02\bin\Debug\TP-02.exe.config
+C:\Users\Administrator\Desktop\asdfgh\TP-02\TP-02\bin\Debug\TP-02.exe
+C:\Users\Administrator\Desktop\asdfgh\TP-02\TP-02\bin\Debug\TP-02.pdb
+C:\Users\Administrator\Desktop\asdfgh\TP-02\TP-02\bin\Debug\Entidades.dll
+C:\Users\Administrator\Desktop\asdfgh\TP-02\TP-02\bin\Debug\Entidades.pdb
+C:\Users\Administrator\Desktop\asdfgh\TP-02\TP-02\obj\Debug\TP-02.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\asdfgh\TP-02\TP-02\obj\Debug\TP-02.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\asdfgh\TP-02\TP-02\obj\Debug\TP-02.csproj.CopyComplete
+C:\Users\Administrator\Desktop\asdfgh\TP-02\TP-02\obj\Debug\TP-02.exe
+C:\Users\Administrator\Desktop\asdfgh\TP-02\TP-02\obj\Debug\TP-02.pdb

@@ -4,27 +4,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entidades_2018
+namespace Entidades
 {
     /// <summary>
     /// No podrá tener clases heredadas.
     /// </summary>
-    public class Changuito
+    public sealed class Estacionamiento
     {
-        private List<Producto> productos;
+        private List<Vehiculo> vehiculos;
         private int espacioDisponible;
+
         public enum ETipo
         {
-            Dulce, Leche, Snacks, Todos
+            Moto, Automovil, Camioneta, Todos
         }
 
         #region "Constructores"
-        private Changuito()
+        private Estacionamiento()
         {
-            this.productos = new List<Producto>();
+            this.vehiculos = new List<Vehiculo>();
         }
 
-        public Changuito(int espacioDisponible) : this()
+        public Estacionamiento(int espacioDisponible) : this()
         {
             this.espacioDisponible = espacioDisponible;
         }
@@ -32,12 +33,12 @@ namespace Entidades_2018
 
         #region "Sobrecargas"
         /// <summary>
-        /// Muestro el Changuito y TODOS los Productos
+        /// Muestro el estacionamiento y TODOS los vehículos
         /// </summary>
         /// <returns></returns>
         public override string ToString()
         {
-            return Changuito.Mostrar(this, ETipo.Todos);
+            return Estacionamiento.Mostrar(this, ETipo.Todos);
         }
         #endregion
 
@@ -50,31 +51,33 @@ namespace Entidades_2018
         /// <param name="c">Elemento a exponer</param>
         /// <param name="ETipo">Tipos de ítems de la lista a mostrar</param>
         /// <returns></returns>
-        public static string Mostrar(Changuito c, ETipo tipo)
+        public static string Mostrar(Estacionamiento c, ETipo tipo)
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendFormat("Tenemos {0} lugares ocupados de un total de {1} disponibles", c.productos.Count, c.espacioDisponible);
+            sb.AppendFormat("Tenemos {0} lugares ocupados de un total de {1} disponibles", c.vehiculos.Count, c.espacioDisponible);
             sb.AppendLine("");
-            foreach (Producto v in c.productos)
+            foreach (Vehiculo v in c.vehiculos)
             {
                 switch (tipo)
                 {
-                    case ETipo.Snacks:
-                        if ( v is Snacks) {
+                    case ETipo.Camioneta:
+                        if(v is Camioneta)
+                        {
                             sb.AppendLine(v.Mostrar());
                         }
                         break;
-
-                    case ETipo.Dulce:
-                        if (v is Dulce) {
+                    case ETipo.Moto:
+                        if (v is Moto)
+                        {
                             sb.AppendLine(v.Mostrar());
                         }
                         break;
-                    case ETipo.Leche:
-                        if(v is Leche){
+                    case ETipo.Automovil:
+                        if (v is Automovil)
+                        {
                             sb.AppendLine(v.Mostrar());
-                        } 
+                        }
                         break;
                     default:
                         sb.AppendLine(v.Mostrar());
@@ -93,18 +96,19 @@ namespace Entidades_2018
         /// <param name="c">Objeto donde se agregará el elemento</param>
         /// <param name="p">Objeto a agregar</param>
         /// <returns></returns>
-        public static Changuito operator +(Changuito c, Producto p)
+        public static Estacionamiento operator +(Estacionamiento c, Vehiculo p)
         {
-
-            foreach (Producto v in c.productos)
+            if (c.vehiculos.Count < c.espacioDisponible)
             {
-                if (v == p) 
-                    return c;
+                foreach (Vehiculo v in c.vehiculos)
+                {
+                    if (v == p)
+                        return c;
+                }
+
+                c.vehiculos.Add(p);
             }
-            if (c.productos.Count != c.espacioDisponible) {
-                c.productos.Add(p);
-              
-            }
+            
             return c;
         }
         /// <summary>
@@ -113,13 +117,13 @@ namespace Entidades_2018
         /// <param name="c">Objeto donde se quitará el elemento</param>
         /// <param name="p">Objeto a quitar</param>
         /// <returns></returns>
-        public static Changuito operator -(Changuito c, Producto p)
+        public static Estacionamiento operator -(Estacionamiento c, Vehiculo p)
         {
-            foreach (Producto v in c.productos)
+            foreach (Vehiculo v in c.vehiculos)
             {
                 if (v == p)
                 {
-                    c.productos.Remove(v);
+                    c.vehiculos.Remove(v);
                     break;
                 }
             }
