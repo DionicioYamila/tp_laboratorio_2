@@ -1,0 +1,13 @@
+C:\Users\Administrator\source\repos\Dionicio.Yamila.2D.TP4\ConsolePrueba\bin\Debug\ConsolePrueba.exe.config
+C:\Users\Administrator\source\repos\Dionicio.Yamila.2D.TP4\ConsolePrueba\bin\Debug\ConsolePrueba.exe
+C:\Users\Administrator\source\repos\Dionicio.Yamila.2D.TP4\ConsolePrueba\bin\Debug\ConsolePrueba.pdb
+C:\Users\Administrator\source\repos\Dionicio.Yamila.2D.TP4\ConsolePrueba\bin\Debug\Entidades.dll
+C:\Users\Administrator\source\repos\Dionicio.Yamila.2D.TP4\ConsolePrueba\bin\Debug\FrmPpal.exe
+C:\Users\Administrator\source\repos\Dionicio.Yamila.2D.TP4\ConsolePrueba\bin\Debug\Entidades.pdb
+C:\Users\Administrator\source\repos\Dionicio.Yamila.2D.TP4\ConsolePrueba\bin\Debug\FrmPpal.pdb
+C:\Users\Administrator\source\repos\Dionicio.Yamila.2D.TP4\ConsolePrueba\bin\Debug\FrmPpal.exe.config
+C:\Users\Administrator\source\repos\Dionicio.Yamila.2D.TP4\ConsolePrueba\obj\Debug\ConsolePrueba.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\Dionicio.Yamila.2D.TP4\ConsolePrueba\obj\Debug\ConsolePrueba.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Dionicio.Yamila.2D.TP4\ConsolePrueba\obj\Debug\ConsolePrueba.csproj.CopyComplete
+C:\Users\Administrator\source\repos\Dionicio.Yamila.2D.TP4\ConsolePrueba\obj\Debug\ConsolePrueba.exe
+C:\Users\Administrator\source\repos\Dionicio.Yamila.2D.TP4\ConsolePrueba\obj\Debug\ConsolePrueba.pdb
